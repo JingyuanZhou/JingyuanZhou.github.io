@@ -170,22 +170,64 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Jingyuan Zhou" class="md-nav__button md-logo" aria-label="Jingyuan Zhou" data-md-component="logo">
+    <!--
+<a href="." title="Jingyuan Zhou" class="md-nav__button md-logo" aria-label="Jingyuan Zhou" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
+
+    -->
+    
     Welcome to my homepage
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
-  
-  
+
     <li class="md-nav__item md-nav__item--active">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Biography
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       <a href="." class="md-nav__link md-nav__link--active">
         Biography
       </a>
+      <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+        <label class="md-nav__title" for="__toc">
+          <span class="md-nav__icon md-icon"></span>
+          Table of contents
+        </label>
+        <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+                
+          <li class="md-nav__item">
+            <a href="#about" class="md-nav__link">
+              About me
+            </a>
+          </li>
+    
+          <li class="md-nav__item">
+            <a href="#education" class="md-nav__link">
+              Education background
+            </a>
+          </li>
+          
+          <li class="md-nav__item">
+              <a href="#internship" class="md-nav__link">
+                Internship & Experience
+              </a>
+          </li>
+          
+          <li class="md-nav__item">
+            <a href="#awards" class="md-nav__link">
+              Awards
+            </a>
+          </li>
+          
+        </ul>
+      
+    </nav>
     </li>
     <li class="md-nav__item">
       <a href="research/" class="md-nav__link">
@@ -211,12 +253,6 @@
                     
 
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
       Table of contents
